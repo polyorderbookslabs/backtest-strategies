@@ -1,0 +1,17 @@
+market:
+  coin: eth
+  market_type: 15m
+side: Up
+budget_per_trade: 100
+sample_size: 20
+taker_fee: 0.07
+entry:
+  - type: time
+    after_seconds: 60
+  - type: price
+    side: Up
+    comparator: ">"
+    threshold: 0.60
+    within_seconds: 480
+exit:
+  hold_to_expiry: true

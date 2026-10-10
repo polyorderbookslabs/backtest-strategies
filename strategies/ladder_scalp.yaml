@@ -1,0 +1,15 @@
+market:
+  coin: sol
+  market_type: 15m
+side: Down
+budget_per_trade: 50
+sample_size: 20
+taker_fee: 0.07
+trade_lag_seconds: 1
+max_trades_per_market: 4
+entry:
+  - type: time
+    after_seconds: 180
+exit:
+  trailing_stop_distance: 0.05
+  trailing_stop_activation: 0.55

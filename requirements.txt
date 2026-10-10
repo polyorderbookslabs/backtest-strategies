@@ -1,0 +1,3 @@
+polyorderbooks>=0.2.0
+polyorderbooks-backtest @ git+https://github.com/polyorderbookslabs/polyorderbooks-backtest-python.git@main
+PyYAML>=6.0
